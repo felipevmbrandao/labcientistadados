@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-# função para carregar o dataset
+# função para carregar o dapiptaset
 @st.cache
 def get_data():
     return pd.read_csv("risco.csv")
